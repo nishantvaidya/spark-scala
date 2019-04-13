@@ -10,7 +10,7 @@ Spark Scala big data analysis of movie lens data set
 - Download a pre-built version of Apache Spark 2.3 (do not use Spark 2.4; it has a bug and only works with Linux) from [link to spark !](https://spark.apache.org/downloads.html)
 - If necessary, download and install WinRAR so you can extract the .tgz file you downloaded. http://www.rarlab.com/download.htm
 - Extract the Spark archive, and copy its contents into C:\spark after creating that directory. You should end up with directories like c:\spark\bin, c:\spark\conf, etc.
-- Download winutils.exe from[link to winuitls!] (https://github.com/nishantvaidya/spark-scala/blob/master/winutils.exe) and move it into a C:\winutils\bin folder that you’ve created. (note, this is a 64-bit application. If you are on a 32-bit version of Windows, you’ll need to search for a 32-bit build of winutils.exe for Hadoop.)
+- Download winutils.exe from[link to winuitls!](https://github.com/nishantvaidya/spark-scala/blob/master/winutils.exe) and move it into a C:\winutils\bin folder that you’ve created. (note, this is a 64-bit application. If you are on a 32-bit version of Windows, you’ll need to search for a 32-bit build of winutils.exe for Hadoop.)
 - Create a c:\tmp\hive directory, and cd into c:\winutils\bin, and run winutils.exe chmod 777 c:\tmp\hive
 - Open the the c:\spark\conf folder, and make sure “File Name Extensions” is checked in the “view” tab of Windows Explorer. Rename the log4j.properties.template file to log4j.properties. Edit this file (using Wordpad or something similar) and change the error level from INFO to ERROR for log4j.rootCategory
 - Right-click your Windows menu, select Control Panel, System and Security, and then System. Click on “Advanced System Settings” and then the “Environment Variables” button.
@@ -57,6 +57,6 @@ Hit control-D to exit the spark shell, and close the console window.
 - LearningScala2.sc will provide basic programme on flow execution.
 - LearningScala3.sc will provide basic programmes on function declartion, functional literal(lambada expression).
 - LearningScala4.sc will provide basic programme on scala collections.
--  # Tuple is immutable list in scala similar to pytho var tuple = ("1","2","3");
--  # List is mutalbe collection var list = List("string", 1, "3");It is singley link list and tail method gives all element except first
--  # Map is another collection in scala
+  -*Tuple is immutable list in scala similar to pytho var tuple = ("1","2","3");*
+  -* List is mutalbe collection var list = List("string", 1, "3");It is singley link list and tail method gives all element except first*
+  -*Map is another collection in scala var map = Map("a"->"b", "key2"->"value2")*
