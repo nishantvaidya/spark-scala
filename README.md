@@ -33,3 +33,20 @@ At this point you should have a scala> prompt. If not, double check the steps ab
 Enter val rdd = sc.textFile(“README.md”) (or whatever text file you’ve found) Enter rdd.count()
 You should get a count of the number of lines in that file! Congratulations, you just ran your first Spark program!
 Hit control-D to exit the spark shell, and close the console window.
+
+# Importing and running this project in Downloaded Eclipse IDE.
+ - Open up IDE
+ - Create a Scala project using New option in Eclipse.
+ - Create a package com.test.spark in project.
+ - Click on Import button and choose file system option and select scala source code folder project.
+ - Import RatingsCounter.sc file
+ - Right click on project -> properties-> Java build path -> libraries -> Add external Jar -> Import all jars from downloades scala/Jar folders.
+ - Right click again on project -> properties-> Scala compiler -> check use project setting box-> select 2.11 in scala installation dropdown.
+ - Dowload ml-100k from http://files.grouplens.org/datasets/movielens/ml-100k.zip link.
+ - unzip in work-space folder.
+ - Run the program. you should see below result. Congratulations.!!
+    (1,6110)
+ (2,11370)
+ (3,27145)
+ (4,34174)
+ (5,21201)
