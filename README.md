@@ -1,5 +1,5 @@
-###### spark-scala
-###Spark Scala big data analysis of movie lens data set
+# spark-scala
+##Spark Scala big data analysis of movie lens data set
 
 
 # Installing Apache Spark and Scala Windows!
