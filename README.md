@@ -45,11 +45,11 @@ Hit control-D to exit the spark shell, and close the console window.
  - Dowload ml-100k from [link to DataSet!](http://files.grouplens.org/datasets/movielens/ml-100k.zip) link.
  - unzip in work-space folder.
  - Run the program. you should see below result. Congratulations.!!
-  - (1,6110)
-  - (2,11370)
-  - (3,27145)
-  - (4,34174)
-  - (5,21201)
+   - (1,6110)
+   - (2,11370)
+   - (3,27145)
+   - (4,34174)
+   - (5,21201)
 ## *Scala Basic Example*
 - Create a seperate project for LearningScala1 to 4 files in source code folder
 - LearningScala1.sc will provide basis idea for variable declaration, variable type , operations, print formatting etc.
