@@ -45,11 +45,11 @@ Hit control-D to exit the spark shell, and close the console window.
  - Dowload ml-100k from [link to DataSet!](http://files.grouplens.org/datasets/movielens/ml-100k.zip) link.
  - unzip in work-space folder.
  - Run the program. you should see below result. Congratulations.!!
-  *(1,6110)
-  *(2,11370)
-  *(3,27145)
-  *(4,34174)
-  *(5,21201)
+  * (1,6110)
+  * (2,11370)
+  * (3,27145)
+  * (4,34174)
+  * (5,21201)
 ## *Scala Basic Example*
 - Create a seperate project for LearningScala1 to 4 files in source code folder
 - LearningScala1.sc will provide basis idea for variable declaration, variable type , operations, print formatting etc.
@@ -57,6 +57,6 @@ Hit control-D to exit the spark shell, and close the console window.
 - LearningScala2.sc will provide basic programme on flow execution.
 - LearningScala3.sc will provide basic programmes on function declartion, functional literal(lambada expression).
 - LearningScala4.sc will provide basic programme on scala collections.
-  -*Tuple is immutable list in scala similar to pytho var tuple = ("1","2","3");*
-  -* List is mutalbe collection var list = List("string", 1, "3");It is singley link list and tail method gives all element except first*
-  -*Map is another collection in scala var map = Map("a"->"b", "key2"->"value2")*
+  * *Tuple is immutable list in scala similar to pytho var tuple = ("1","2","3");*
+  * * List is mutalbe collection var list = List("string", 1, "3");It is singley link list and tail method gives all element except first*
+  * *Map is another collection in scala var map = Map("a"->"b", "key2"->"value2")*
