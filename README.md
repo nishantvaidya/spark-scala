@@ -57,6 +57,6 @@ Hit control-D to exit the spark shell, and close the console window.
 - LearningScala2.sc will provide basic programme on flow execution.
 - LearningScala3.sc will provide basic programmes on function declartion, functional literal(lambada expression).
 - LearningScala4.sc will provide basic programme on scala collections.
-  - *Tuple is immutable list in scala similar to pytho var tuple = ("1","2","3");*
+  - *Tuple is immutable list in scala similar to python language; var tuple = ("1","2","3");*
   - *List is mutalbe collection var list = List("string", 1, "3");It is singley link list and tail method gives all element except first*
   - *Map is another collection in scala var map = Map("a"->"b", "key2"->"value2")*
