@@ -1,4 +1,4 @@
-package com.sundogsoftware.spark
+package com.test.spark
 
 import org.apache.spark._
 import org.apache.spark.SparkContext._
@@ -10,8 +10,8 @@ import scala.math.sqrt
 
 
 // To run on EMR successfully + output results for Star Wars:
-// aws s3 cp s3://sundog-spark/MovieSimilarities1M.jar ./
-// aws s3 cp s3://sundog-spark/ml-1m/movies.dat ./
+// aws s3 cp s3://test/MovieSimilarities1M.jar ./
+// aws s3 cp s3://test/ml-1m/movies.dat ./
 // spark-submit --executor-memory 1g MovieSimilarities1M.jar 260
 
 
