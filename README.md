@@ -51,7 +51,7 @@ Hit control-D to exit the spark shell, and close the console window.
    - (4,34174)
    - (5,21201)
 ## *Scala Basic Example*
-- Create a seperate project for LearningScala1 to 4 files in source code folder
+- **Create a seperate project for LearningScala1 to 4 files in source code folder**
 - LearningScala1.sc will provide basis idea for variable declaration, variable type , operations, print formatting etc.
   *val is immutable variable and scala recommend to use it highly comarpe to var in functional programming.
 - LearningScala2.sc will provide basic programme on flow execution.
